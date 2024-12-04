@@ -16,7 +16,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         while (true) {
-            System.out.println("\n--- Catálogo LiterAlura ---");
+            System.out.println("\n--- Catálogo de libros ---");
             System.out.println("1. Buscar libro por título");
             System.out.println("2. Listar todos los libros");
             System.out.println("3. Listar libros por idioma");
@@ -68,7 +68,7 @@ public class Main {
                     break;
 
                 case 4:
-                    System.out.println("Saliendo de LiterAlura. ¡Hasta pronto!");
+                    System.out.println("Saliendo ¡Hasta pronto!");
                     scanner.close();
                     return;
 
